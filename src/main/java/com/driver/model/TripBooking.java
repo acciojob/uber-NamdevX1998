@@ -49,6 +49,8 @@ public class TripBooking{
         return fromLocation;
     }
 
+
+
     public void setFromLocation(String fromLocation) {
         this.fromLocation = fromLocation;
     }
@@ -77,8 +79,15 @@ public class TripBooking{
         this.bill = bill;
     }
 
+    public TripStatus getTripStatus() {
+        return tripStatus;
+    }
     public TripStatus getStatus() {
         return tripStatus;
+    }
+
+    public void setTripStatus(TripStatus tripStatus) {
+        this.tripStatus = tripStatus;
     }
 
     public void setStatus(TripStatus tripStatus) {
