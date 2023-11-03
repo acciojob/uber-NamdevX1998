@@ -52,6 +52,7 @@ public class AdminServiceImpl implements AdminService {
 		if(optionalAdmin.isPresent()){
 			Admin admin=optionalAdmin.get();
 			adminRepository1.delete(admin);
+
 		}
 	}
 
